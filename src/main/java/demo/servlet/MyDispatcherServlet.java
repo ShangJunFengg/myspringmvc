@@ -18,7 +18,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class MyDispatcherServiet extends HttpServlet {
+public class MyDispatcherServlet extends HttpServlet {
 
     private Properties properties=new Properties();//配置文件
     private List<String> classes=new ArrayList();//包扫描的全限定类名
